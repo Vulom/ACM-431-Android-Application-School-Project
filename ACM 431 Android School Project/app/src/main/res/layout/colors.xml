@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <resources>
+        <color android:name="colorPrimary">#2196F3</color>
+        <color android:name="colorPrimaryLight">#64b5f6</color>
+        <color android:name="colorPrimaryDark">#1976D2</color>
+        <color android:name="colorAccent">#FFFF9800</color>
+        <color android:name="colorTextPrimary">@android:color/white</color>
+        <color android:name="colorScreenBackground">#fff3e0</color>
+        <color android:name="colorTextHint">#E0E0E0</color>
+    </resources>
+
+    <style android:name="text_view_style">
+        <item android:name="android:layout_width">match_parent</item>
+        <item android:name="android:layout_height">wrap_content</item>
+        <item android:name="android:textAppearance">
+            @android:style/TextAppearance.Large</item>
+        <item android:name="android:background">@color/colorPrimaryLight</item>
+        <item android:name="android:layout_marginTop">8dp</item>
+        <item android:name="android:layout_gravity">center</item>
+        <item android:name="android:padding">16dp</item>
+        <item android:name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+</android.support.constraint.ConstraintLayout>
